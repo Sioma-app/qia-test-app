@@ -1,0 +1,14 @@
+version: "1"
+
+build:
+  dockerfile: Dockerfile
+  context: "."
+
+viewport:
+  width: 1920
+  height: 1080
+
+pages:
+  - name: home
+    route: /
+    design_reference: designs/home.png
